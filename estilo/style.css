@@ -41,7 +41,7 @@ header a, footer a {
     font-weight: bold;
 }
 
-header > p > a:hover {
+header > p a:hover, footer > p a:hover {
     text-decoration: underline;
 }
 
@@ -60,8 +60,7 @@ section.imagem {
     background-color: #9e9e9e;
     background-size: cover;
     background-attachment: fixed;
-    margin: 0px 10px 0px 10px;
-    border-radius: 15px;
+    margin: 0px 7px 0px 7px;
     box-shadow: inset 6px 6px 13px #00000091;
 }
 
@@ -69,8 +68,9 @@ section.imagem > p {
     background-color: #00000067;
     color: #ffffff;
     display: inline-block;
-    border-radius: 5px;
+    border-radius: 2.5px 16px;
     padding: 7px;
+    text-shadow: 1px 1px 2px #0000006e;
 }
 
 section#img01 {
